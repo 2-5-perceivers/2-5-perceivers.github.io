@@ -2,7 +2,7 @@
   <footer>
     <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center order-2">
-        <a href="#" class="text-neutral-500 hover:text-neutral-700">
+        <a href="https://github.com/2-5-perceivers" class="text-neutral-500 hover:text-neutral-700">
           <span class="brand-name">GitHub</span>
           <IconGitHub class="brand-icon" />
         </a>
