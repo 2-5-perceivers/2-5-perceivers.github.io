@@ -12,7 +12,7 @@
       </p>
       <div class="mt-10 flex items-center justify-center gap-6">
         <a
-          href="#"
+          href="https://github.com/2-5-perceivers/2-5-perceivers.github.io/discussions"
           class="rounded-md bg-neutral-50 px-3.5 py-2.5 text-small font-semibold text-gray-900 shadow-sm hover:bg-neutral-200 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-white"
           >Contact us</a
         >
