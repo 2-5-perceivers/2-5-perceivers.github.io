@@ -13,7 +13,7 @@
       <div class="mt-10 flex items-center justify-center gap-6">
         <a
           href="https://github.com/2-5-perceivers/2-5-perceivers.github.io/discussions"
-          class="rounded-md bg-neutral-50 px-3.5 py-2.5 text-small font-semibold text-gray-900 shadow-sm hover:bg-neutral-200 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-white"
+          class="rounded-md bg-neutral-50 px-3.5 py-2.5 text-small font-semibold text-gray-900 shadow-sm hover:bg-neutral-200 focus:outline-2 focus:outline-offset-2 focus:outline-white"
         >
           Contact us
         </a>
@@ -29,7 +29,7 @@
       <svg
         viewBox="0 0 1024 1024"
         aria-hidden="true"
-        class="absolute left-1/2 top-3/2 -z-10 -translate-x-1/2 blur-3xl"
+        class="absolute left-1/2 -z-10 -translate-x-1/2 blur-3xl"
       >
         <circle
           r="512"
