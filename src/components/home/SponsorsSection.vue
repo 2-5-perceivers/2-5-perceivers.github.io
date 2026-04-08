@@ -7,8 +7,8 @@
         Become a sponsor
       </h2>
       <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300">
-        We are looking for sponsors to help us grow our community and support our mission. If you
-        are interested in becoming a sponsor, please get in touch with us.
+        If one of our projects saved you time or you just feel generous, check out our sponsorship
+        options on GitHub. Feel free to reach out if you have any questions!
       </p>
       <div class="mt-10 flex items-center justify-center gap-6">
         <a

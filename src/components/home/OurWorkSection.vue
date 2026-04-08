@@ -12,12 +12,27 @@
       <div
         class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
       >
-        <ProjectCard>
+        <ProjectCard to="/#/warpinator">
           <template #icon>
-            <IconFlutter class="w-5 h-7 flex-none text-emerald-600" />
+            <HugeiconsIcon :icon="SharedWifiIcon" class="size-5 text-emerald-600" />
           </template>
           <template #heading>
-            <h3>Flutter</h3>
+            <h3>Warpinator</h3>
+          </template>
+          <template #content>
+            <p>
+              Our Warpinator projects are our spin on the popular local network file sharing app.
+              Focused on performance and a seamless experience, it's the best way to share files on
+              your local network.
+            </p>
+          </template>
+        </ProjectCard>
+        <ProjectCard to="https://github.com/orgs/2-5-perceivers/repositories?q=flutter+package">
+          <template #icon>
+            <HugeiconsIcon :icon="PackageIcon" class="size-5 text-emerald-600" />
+          </template>
+          <template #heading>
+            <h3>Flutter packages</h3>
           </template>
           <template #content>
             <p>
@@ -26,9 +41,9 @@
             </p>
           </template>
         </ProjectCard>
-        <ProjectCard>
+        <ProjectCard to="/polybius">
           <template #icon>
-            <IconPassword class="w-5 h-7 flex-none text-emerald-600" />
+            <HugeiconsIcon :icon="PasswordValidationIcon" class="size-5 text-emerald-600" />
           </template>
           <template #heading>
             <h3>Polybius</h3>
@@ -40,28 +55,13 @@
             </p>
           </template>
         </ProjectCard>
-        <ProjectCard>
-          <template #icon>
-            <IconCode class="w-5 h-7 flex-none text-emerald-600" />
-          </template>
-          <template #heading>
-            <h3>More</h3>
-          </template>
-          <template #content>
-            <p>
-              We can not wait to show you more of our work. We are currently working on a few more
-              projects that we are excited to share with you. Checkout our GitHub for more.
-            </p>
-          </template>
-        </ProjectCard>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { HugeiconsIcon } from '@hugeicons/vue'
+import { PackageIcon, PasswordValidationIcon, SharedWifiIcon } from '@hugeicons/core-free-icons'
 import ProjectCard from './ProjectCard.vue'
-import IconFlutter from './icons/IconFlutter.vue'
-import IconCode from './icons/IconCode.vue'
-import IconPassword from './icons/IconPassword.vue'
 </script>

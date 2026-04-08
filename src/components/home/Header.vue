@@ -9,14 +9,14 @@
         <div
           class="relative rounded-full px-3 py-1 text-sm leading-6 text-neutral-100 ring-1 ring-neutral-50/40 hover:ring-neutral-50/80"
         >
-          <span>Polybius is now online</span>
-          <a
-            href="https://2-5-perceivers.github.io/polybius/"
+          <span>Check out Warpinator</span>
+          <RouterLink
+            to="/warpinator"
             class="font-semibold text-emerald-300 hover:text-emerald-100"
           >
             Use
             <span aria-hidden="true">&rarr;</span>
-          </a>
+          </RouterLink>
         </div>
       </div>
       <div class="text-center">
@@ -25,7 +25,7 @@
         </h1>
         <p class="mt-6 text-lg leading-8 text-neutral-200">
           Just 2 and a half friends who write code when we come up with ideas. It doesn't matter how
-          good the ideas are. From Flutter packages to smart password generators, we do it all.
+          good the ideas are, if it scratches an itch, it gets a repository.
         </p>
       </div>
     </div>
@@ -34,7 +34,7 @@
 
 <style scoped>
 .header {
-  background-image: url('../assets/images/header.webp');
+  background-image: url('@/assets/images/header.webp');
   background-size: cover;
   background-position: center;
 }

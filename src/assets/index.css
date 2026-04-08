@@ -1,5 +1,5 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-    --font-display: "Major Mono Display", "monospace";
+  --font-display: 'Major Mono Display', 'monospace';
 }
