@@ -35,6 +35,36 @@
         alt="Warpinator Terminal screenshot"
       />
 
+      <h2 class="mt-12 text-2xl leading-8 font-semibold text-purple-700">Warpinator Android</h2>
+      <p class="mt-6 text-lg leading-8 text-gray-600">
+        Warpinator Android is an Android client for Warpinator, designed to allow file transfers
+        between Android devices and other Warpinator clients.
+        <a
+          href="https://github.com/2-5-perceivers/warpinator-android"
+          class="text-purple-600 hover:text-purple-800"
+          >Learn more</a
+        >.
+      </p>
+      <div
+        class="py-6 flex flex-row gap-4 overflow-x-auto sm:overflow-x-visible flex-nowrap px-4 sm:px-0"
+      >
+        <img
+          class="rounded-lg lg:rounded-2xl shadow-lg lg:shadow-2xl lg:shadow-black w-[60vw] sm:w-auto sm:flex-1 sm:min-w-0 shrink-0 sm:shrink sm:max-w-[32%]"
+          src="@/assets/images/warpinator_screenshots/android1.png"
+          alt="Warpinator Android screenshot"
+        />
+        <img
+          class="rounded-lg lg:rounded-2xl shadow-lg lg:shadow-2xl lg:shadow-black w-[60vw] sm:w-auto sm:flex-1 sm:min-w-0 shrink-0 sm:shrink sm:max-w-[32%]"
+          src="@/assets/images/warpinator_screenshots/android2.png"
+          alt="Warpinator Android screenshot"
+        />
+        <img
+          class="rounded-lg lg:rounded-2xl shadow-lg lg:shadow-2xl lg:shadow-black w-[60vw] sm:w-auto sm:flex-1 sm:min-w-0 shrink-0 sm:shrink sm:max-w-[32%]"
+          src="@/assets/images/warpinator_screenshots/android3.png"
+          alt="Warpinator Android screenshot"
+        />
+      </div>
+
       <h2 class="mt-12 text-2xl leading-8 font-semibold text-purple-700">Others</h2>
       <p class="mt-6 text-lg leading-8 text-gray-600">
         Also take a look at the other implementations of Warpinator. Especially the
@@ -47,9 +77,8 @@
         <a
           href="https://github.com/slowscript/warpinator-android"
           class="text-purple-600 hover:text-purple-800"
-          >the Android port</a
+          >slowscript's Android port</a
         >
-        by slowscript.
       </p>
     </div>
   </div>
